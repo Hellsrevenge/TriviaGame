@@ -1,0 +1,98 @@
+body {
+    background-image: url("../images/matrix.png");
+    background-size: cover;
+}
+#container {
+    background-color: antiquewhite;
+    margin: 100px 80px 100px 40px;
+    width: 80%;
+    height: 80%;
+    border: 3px solid green;
+    padding: 70px;
+    text-align: center;
+}
+
+h1 {
+    text-align:center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgreen;
+}
+#startBtn {
+    font-size: 24px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; 
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+#startBtn:hover {
+    background-color: #005600;
+    color: white;
+    border: 2px solid #4CAF50; 
+    transition: 300ms;
+    cursor:pointer;
+}
+#timeLeft {
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    padding: 0px 40px; 
+}
+#currentQuestion{
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    padding: 14px 40px;
+}
+
+#answersVar {
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+}
+#rightAnswer {
+    text-align: center;
+    margin: auto;
+    font-size: 24px; 
+}
+#gif {
+    text-align: center;
+    margin: 10px auto;
+    width:100%;
+}
+#correctAnswers{
+    text-align: center;
+    margin: auto;
+    font-size: 24px; 
+}
+#incorrectAnswers{
+    text-align: center;
+    margin: auto;
+    font-size: 24px; 
+}
+#unanswered{
+    text-align: center;
+    margin: auto;
+    font-size: 24px; 
+}
+.answerBtn {
+    border:2px solid antiquewhite;
+    display: table;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.answerBtn:hover {
+    border:2px solid #09a509;  
+    cursor: pointer; 
+}
+.answerBtn.correct {
+    color: #09a509; 
+    border:2px solid #09a509; 
+}
+.answerBtn.incorrect {
+    color: #c00; 
+}
